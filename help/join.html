@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Join the beta — Alles Hockey Help</title>
-  <meta name="description" content="Alles Hockey beta help: invite, PIN, and app install." />
+  <title>Beta beitreten — Alles Hockey Hilfe</title>
+  <meta name="description" content="Alles Hockey Beta-Hilfe: Einladung, PIN und App-Installation." />
   <link rel="canonical" href="https://help.alles-hockey.ch/help/join.html" />
   <meta name="theme-color" content="#d9001b" />
   <link rel="icon" href="/assets/brand/alles-hockey-64.png" />
@@ -13,45 +13,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/site.css" />
 </head>
-<body>
+<body data-page="join">
   <div class="wrap">
     <header class="site-header">
-      <a href="/"><img src="/assets/brand/alles-hockey-192.png" alt="" width="56" height="56" /></a>
-      <div>
-        <div class="site-header__brand">ALLES-HOCKEY.CH</div>
-        <p class="site-header__sub">Help · closed beta</p>
+      <div class="site-header__brand-row">
+        <a href="/"><img src="/assets/brand/alles-hockey-192.png" alt="" width="56" height="56" /></a>
+        <div>
+          <div class="site-header__brand">ALLES-HOCKEY.CH</div>
+          <p class="site-header__sub" data-i18n="header.sub">Hilfe · geschlossene Beta</p>
+        </div>
       </div>
+      <div id="lang-switch" class="lang-switch"></div>
     </header>
     <main>
 
-      <p class="kicker">Invitation only</p>
-      <h1>How to join</h1>
-      <p class="lead">Alles Hockey is invite-only while we test Last Minute + 2ndChance with real players. An operator adds your email — there is no public signup.</p>
+      <p class="kicker" data-i18n="join.kicker">Nur auf Einladung</p>
+      <h1 data-i18n="join.title">So trittst du bei</h1>
+      <p class="lead" data-i18n="join.lead">Alles Hockey ist einladungsbasiert, während wir Last Minute + 2ndChance mit echten Spielern testen. Ein Operator trägt deine E-Mail ein — es gibt keine öffentliche Registrierung.</p>
       <div class="card">
         <ol class="steps">
-          <li><span class="num">1</span><div><p>Wait for the Alles Hockey invite email (code + link).</p></div></li>
-          <li><span class="num">2</span><div><p>Optional: install the phone app first — <a href="/help/install-android.html">Android APK</a> or <a href="/help/install-ios.html">iPhone via TestFlight</a>.</p></div></li>
-          <li><span class="num">3</span><div><p>In the website or app: enter email + mail code → Continue.</p></div></li>
-          <li><span class="num">4</span><div><p>Create your PIN (step 2). That is how you sign in after logout.</p></div></li>
+          <li><span class="num">1</span><div><p data-i18n="join.s1">Warte auf die Alles-Hockey-Einladungsmail (Code + Link).</p></div></li>
+          <li><span class="num">2</span><div><p data-i18n-html="join.s2">Optional: zuerst die Handy-App installieren — <a href="/help/install-android.html">Android-APK</a> oder <a href="/help/install-ios.html">iPhone via TestFlight</a>.</p></div></li>
+          <li><span class="num">3</span><div><p data-i18n="join.s3">In der Website oder App: E-Mail + Mail-Code eingeben → Weiter.</p></div></li>
+          <li><span class="num">4</span><div><p data-i18n="join.s4">PIN erstellen (Schritt 2). Damit meldest du dich nach dem Logout an.</p></div></li>
         </ol>
-        <p class="note">Open the mail link only inside the same browser/app you want logged in. Prefer entering the code in the app.</p>
-        <p><a class="btn" href="/help/sign-in.html">Sign-in details</a>
-           <a class="btn btn--ghost" href="/help/install-android.html">Android</a>
-           <a class="btn btn--ghost" href="/help/install-ios.html">iPhone</a></p>
+        <p class="note" data-i18n="join.note">Öffne den Mail-Link nur im gleichen Browser/App, in dem du eingeloggt bleiben willst. Am besten den Code direkt in der App eingeben.</p>
+        <p>
+          <a class="btn" href="/help/sign-in.html" data-i18n="join.ctaSignin">Anmelde-Details</a>
+          <a class="btn btn--ghost" href="/help/install-android.html" data-i18n="join.ctaAndroid">Android</a>
+          <a class="btn btn--ghost" href="/help/install-ios.html" data-i18n="join.ctaIos">iPhone</a>
+        </p>
       </div>
 
     </main>
     <footer class="site-footer">
-      <p>kiwicustom GmbH · Help for <a href="https://beta.alles-hockey.ch">beta.alles-hockey.ch</a></p>
+      <p><span data-i18n="footer.line">kiwicustom GmbH · Hilfe für</span> <a href="https://beta.alles-hockey.ch">beta.alles-hockey.ch</a></p>
       <p class="nav-links">
-        <a href="/">Home</a>
-        <a href="/help/join.html">Join beta</a>
-        <a href="/help/sign-in.html">Sign in &amp; PIN</a>
-        <a href="/help/install-android.html">Android app</a>
-        <a href="/help/install-ios.html">iPhone (TestFlight)</a>
-        <a href="/docs/release-notes.html">Release notes</a>
+        <a href="/" data-i18n="nav.home">Start</a>
+        <a href="/help/join.html" data-i18n="nav.join">Beta beitreten</a>
+        <a href="/help/sign-in.html" data-i18n="nav.signin">Anmelden &amp; PIN</a>
+        <a href="/help/install-android.html" data-i18n="nav.android">Android-App</a>
+        <a href="/help/install-ios.html" data-i18n="nav.ios">iPhone (TestFlight)</a>
+        <a href="/docs/release-notes.html" data-i18n="nav.notes">Release notes</a>
       </p>
     </footer>
   </div>
+  <script src="/js/i18n.js"></script>
+  <script src="/js/i18n-boot.js"></script>
 </body>
 </html>

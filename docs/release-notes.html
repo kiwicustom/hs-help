@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Release notes — Alles Hockey Help</title>
-  <meta name="description" content="Alles Hockey beta help: invite, PIN, and app install." />
+  <title>Release notes — Alles Hockey Hilfe</title>
+  <meta name="description" content="Alles Hockey Beta-Hilfe: Einladung, PIN und App-Installation." />
   <link rel="canonical" href="https://help.alles-hockey.ch/docs/release-notes.html" />
   <meta name="theme-color" content="#d9001b" />
   <link rel="icon" href="/assets/brand/alles-hockey-64.png" />
@@ -13,39 +13,44 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/site.css" />
 </head>
-<body>
+<body data-page="notes">
   <div class="wrap">
     <header class="site-header">
-      <a href="/"><img src="/assets/brand/alles-hockey-192.png" alt="" width="56" height="56" /></a>
-      <div>
-        <div class="site-header__brand">ALLES-HOCKEY.CH</div>
-        <p class="site-header__sub">Help · closed beta</p>
+      <div class="site-header__brand-row">
+        <a href="/"><img src="/assets/brand/alles-hockey-192.png" alt="" width="56" height="56" /></a>
+        <div>
+          <div class="site-header__brand">ALLES-HOCKEY.CH</div>
+          <p class="site-header__sub" data-i18n="header.sub">Hilfe · geschlossene Beta</p>
+        </div>
       </div>
+      <div id="lang-switch" class="lang-switch"></div>
     </header>
     <main>
 
-      <p class="kicker">Release notes</p>
-      <h1>What is live</h1>
+      <p class="kicker" data-i18n="notes.kicker">Release notes</p>
+      <h1 data-i18n="notes.title">Was live ist</h1>
       <div class="card">
-        <p>Web: <strong>v0.0.2-mcp-alpha-19</strong> on beta.alles-hockey.ch</p>
-        <p>Android: <strong>0.0.2-mcp-alpha-18</strong> APK (Alles Hockey icon)</p>
-        <p>Auth: invite email code → Create PIN → later email + PIN</p>
-        <p class="note">Tester paste notes also live in the monorepo <code>RELEASE-NOTES.md</code>.</p>
-        <p><a class="btn btn--ghost" href="https://beta.alles-hockey.ch">Open beta</a></p>
+        <p data-i18n-html="notes.web">Web: <strong>v0.0.2-mcp-alpha-19</strong> auf beta.alles-hockey.ch</p>
+        <p data-i18n-html="notes.android">Android: <strong>0.0.2-mcp-alpha-18</strong> APK (Alles-Hockey-Icon)</p>
+        <p data-i18n="notes.auth">Auth: Einladungs-E-Mail-Code → PIN erstellen → später E-Mail + PIN</p>
+        <p class="note" data-i18n-html="notes.note">Tester-Paste-Notes stehen auch im Monorepo unter <code>RELEASE-NOTES.md</code>.</p>
+        <p><a class="btn btn--ghost" href="https://beta.alles-hockey.ch" data-i18n="notes.cta">Beta öffnen</a></p>
       </div>
 
     </main>
     <footer class="site-footer">
-      <p>kiwicustom GmbH · Help for <a href="https://beta.alles-hockey.ch">beta.alles-hockey.ch</a></p>
+      <p><span data-i18n="footer.line">kiwicustom GmbH · Hilfe für</span> <a href="https://beta.alles-hockey.ch">beta.alles-hockey.ch</a></p>
       <p class="nav-links">
-        <a href="/">Home</a>
-        <a href="/help/join.html">Join beta</a>
-        <a href="/help/sign-in.html">Sign in &amp; PIN</a>
-        <a href="/help/install-android.html">Android app</a>
-        <a href="/help/install-ios.html">iPhone (TestFlight)</a>
-        <a href="/docs/release-notes.html">Release notes</a>
+        <a href="/" data-i18n="nav.home">Start</a>
+        <a href="/help/join.html" data-i18n="nav.join">Beta beitreten</a>
+        <a href="/help/sign-in.html" data-i18n="nav.signin">Anmelden &amp; PIN</a>
+        <a href="/help/install-android.html" data-i18n="nav.android">Android-App</a>
+        <a href="/help/install-ios.html" data-i18n="nav.ios">iPhone (TestFlight)</a>
+        <a href="/docs/release-notes.html" data-i18n="nav.notes">Release notes</a>
       </p>
     </footer>
   </div>
+  <script src="/js/i18n.js"></script>
+  <script src="/js/i18n-boot.js"></script>
 </body>
 </html>

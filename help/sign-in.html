@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sign in & PIN — Alles Hockey Help</title>
-  <meta name="description" content="Alles Hockey beta help: invite, PIN, and app install." />
+  <title>Anmelden &amp; PIN — Alles Hockey Hilfe</title>
+  <meta name="description" content="Alles Hockey Beta-Hilfe: Einladung, PIN und App-Installation." />
   <link rel="canonical" href="https://help.alles-hockey.ch/help/sign-in.html" />
   <meta name="theme-color" content="#d9001b" />
   <link rel="icon" href="/assets/brand/alles-hockey-64.png" />
@@ -13,49 +13,54 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/site.css" />
 </head>
-<body>
+<body data-page="signin">
   <div class="wrap">
     <header class="site-header">
-      <a href="/"><img src="/assets/brand/alles-hockey-192.png" alt="" width="56" height="56" /></a>
-      <div>
-        <div class="site-header__brand">ALLES-HOCKEY.CH</div>
-        <p class="site-header__sub">Help · closed beta</p>
+      <div class="site-header__brand-row">
+        <a href="/"><img src="/assets/brand/alles-hockey-192.png" alt="" width="56" height="56" /></a>
+        <div>
+          <div class="site-header__brand">ALLES-HOCKEY.CH</div>
+          <p class="site-header__sub" data-i18n="header.sub">Hilfe · geschlossene Beta</p>
+        </div>
       </div>
+      <div id="lang-switch" class="lang-switch"></div>
     </header>
     <main>
 
-      <p class="kicker">Two steps</p>
-      <h1>Email code → Create PIN</h1>
-      <p class="lead">Mail codes expire. The PIN is what you use after logout — same pattern as kcal.</p>
+      <p class="kicker" data-i18n="signin.kicker">Zwei Schritte</p>
+      <h1 data-i18n="signin.title">E-Mail-Code → PIN erstellen</h1>
+      <p class="lead" data-i18n="signin.lead">Mail-Codes laufen ab. Die PIN brauchst du nach dem Logout — gleiches Muster wie bei kcal.</p>
       <div class="card">
-        <h2>Step 1 — Email code</h2>
+        <h2 data-i18n="signin.step1.title">Schritt 1 — E-Mail-Code</h2>
         <ol class="steps">
-          <li><span class="num">1</span><div><p>Enter the invite email.</p></div></li>
-          <li><span class="num">2</span><div><p>Paste the 8-character code from the mail (or tap Email me a code).</p></div></li>
-          <li><span class="num">3</span><div><p>Tap Continue.</p></div></li>
+          <li><span class="num">1</span><div><p data-i18n="signin.step1.s1">Einladungs-E-Mail eingeben.</p></div></li>
+          <li><span class="num">2</span><div><p data-i18n="signin.step1.s2">Den 8-Zeichen-Code aus der Mail einfügen (oder «Code per E-Mail» tippen).</p></div></li>
+          <li><span class="num">3</span><div><p data-i18n="signin.step1.s3">Weiter tippen.</p></div></li>
         </ol>
       </div>
       <div class="card">
-        <h2>Step 2 — Create PIN</h2>
+        <h2 data-i18n="signin.step2.title">Schritt 2 — PIN erstellen</h2>
         <ol class="steps">
-          <li><span class="num">1</span><div><p>Choose a 4–6 digit PIN and confirm.</p></div></li>
-          <li><span class="num">2</span><div><p>After logout: email + PIN (no new mail needed).</p></div></li>
+          <li><span class="num">1</span><div><p data-i18n="signin.step2.s1">4–6-stellige PIN wählen und bestätigen.</p></div></li>
+          <li><span class="num">2</span><div><p data-i18n="signin.step2.s2">Nach dem Logout: E-Mail + PIN (keine neue Mail nötig).</p></div></li>
         </ol>
-        <p class="note">Forgot PIN? Use “Email me a code”, then you can set a new PIN after sign-in.</p>
+        <p class="note" data-i18n="signin.note">PIN vergessen? «Code per E-Mail» nutzen — danach kannst du nach dem Login eine neue PIN setzen.</p>
       </div>
 
     </main>
     <footer class="site-footer">
-      <p>kiwicustom GmbH · Help for <a href="https://beta.alles-hockey.ch">beta.alles-hockey.ch</a></p>
+      <p><span data-i18n="footer.line">kiwicustom GmbH · Hilfe für</span> <a href="https://beta.alles-hockey.ch">beta.alles-hockey.ch</a></p>
       <p class="nav-links">
-        <a href="/">Home</a>
-        <a href="/help/join.html">Join beta</a>
-        <a href="/help/sign-in.html">Sign in &amp; PIN</a>
-        <a href="/help/install-android.html">Android app</a>
-        <a href="/help/install-ios.html">iPhone (TestFlight)</a>
-        <a href="/docs/release-notes.html">Release notes</a>
+        <a href="/" data-i18n="nav.home">Start</a>
+        <a href="/help/join.html" data-i18n="nav.join">Beta beitreten</a>
+        <a href="/help/sign-in.html" data-i18n="nav.signin">Anmelden &amp; PIN</a>
+        <a href="/help/install-android.html" data-i18n="nav.android">Android-App</a>
+        <a href="/help/install-ios.html" data-i18n="nav.ios">iPhone (TestFlight)</a>
+        <a href="/docs/release-notes.html" data-i18n="nav.notes">Release notes</a>
       </p>
     </footer>
   </div>
+  <script src="/js/i18n.js"></script>
+  <script src="/js/i18n-boot.js"></script>
 </body>
 </html>

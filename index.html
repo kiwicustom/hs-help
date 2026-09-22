@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Help — Alles Hockey</title>
-  <meta name="description" content="What Alles Hockey is, and how to join the closed beta (invite, PIN, Android, iPhone)." />
+  <title>Hilfe — Alles Hockey</title>
+  <meta name="description" content="Was Alles Hockey ist und wie du der geschlossenen Beta beitrittst (Einladung, PIN, Android, iPhone)." />
   <link rel="canonical" href="https://help.alles-hockey.ch/" />
   <meta name="theme-color" content="#d9001b" />
   <link rel="icon" href="/assets/brand/alles-hockey-64.png" />
@@ -13,61 +13,66 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/css/site.css" />
 </head>
-<body>
+<body data-page="home">
   <div class="wrap">
     <header class="site-header">
-      <a href="/"><img src="/assets/brand/alles-hockey-192.png" alt="" width="56" height="56" /></a>
-      <div>
-        <div class="site-header__brand">ALLES-HOCKEY.CH</div>
-        <p class="site-header__sub">Help · closed beta</p>
+      <div class="site-header__brand-row">
+        <a href="/"><img src="/assets/brand/alles-hockey-192.png" alt="" width="56" height="56" /></a>
+        <div>
+          <div class="site-header__brand">ALLES-HOCKEY.CH</div>
+          <p class="site-header__sub" data-i18n="header.sub">Hilfe · geschlossene Beta</p>
+        </div>
       </div>
+      <div id="lang-switch" class="lang-switch"></div>
     </header>
     <main>
 
-      <p class="kicker">What is this?</p>
-      <h1>Alles Hockey</h1>
-      <p class="lead">
-        A Swiss ice-hockey board for <strong>tonight, not someday</strong>: find or post last-minute players, goalies, and ice time — plus sell or buy used gear.
+      <p class="kicker" data-i18n="home.kicker">Was ist das?</p>
+      <h1 data-i18n="home.title">Alles Hockey</h1>
+      <p class="lead" data-i18n="home.lead">
+        Ein Schweizer Eishockey-Board für heute Abend, nicht irgendwann: last-minute Spieler, Goalies und Eiszeit finden oder inserieren — plus gebrauchtes Material kaufen oder verkaufen.
       </p>
 
       <div class="card">
-        <h2>What you can do</h2>
+        <h2 data-i18n="home.what.title">Was du kannst</h2>
         <ul class="plain-list">
-          <li><strong>Last Minute</strong> — short-lived “HS Cards”: who is needed, when, where, level. Contact shows only when someone taps through.</li>
-          <li><strong>2ndChance</strong> — used sticks, pads, skates and more; listings expire fast so the board stays fresh.</li>
-          <li><strong>Map</strong> — see what’s nearby.</li>
+          <li data-i18n-html="home.what.lm"><strong>Last Minute</strong> — kurzlebige «HS Cards»: wer gebraucht wird, wann, wo, Niveau. Kontakt nur, wenn jemand durchklickt.</li>
+          <li data-i18n-html="home.what.sc"><strong>2ndChance</strong> — gebrauchte Schläger, Schoner, Schlittschuhe und mehr; Inserate laufen schnell ab, damit das Board frisch bleibt.</li>
+          <li data-i18n-html="home.what.map"><strong>Karte</strong> — sieh, was in der Nähe ist.</li>
         </ul>
-        <p class="note">
-          Closed beta, invite only. Same product family as
-          <a href="https://hockeyschlampe.ch/">hockeyschlampe.ch</a> (browser).
+        <p class="note" data-i18n-html="home.note">
+          Geschlossene Beta, nur auf Einladung. Gleiche Produktfamilie wie
+          <a href="https://hockeyschlampe.ch/">hockeyschlampe.ch</a> (Browser).
           Storefront: <a href="https://alles-hockey.ch/">alles-hockey.ch</a>.
         </p>
-        <p><a class="btn" href="https://beta.alles-hockey.ch">Open the beta</a></p>
+        <p><a class="btn" href="https://beta.alles-hockey.ch" data-i18n="home.ctaBeta">Beta öffnen</a></p>
       </div>
 
       <div class="card">
-        <h2>Beta help</h2>
-        <p class="lead" style="margin-bottom:0.5rem;font-size:0.95rem">Got an invite? Start here.</p>
+        <h2 data-i18n="home.help.title">Beta-Hilfe</h2>
+        <p class="lead" style="margin-bottom:0.5rem;font-size:0.95rem" data-i18n="home.help.lead">Einladung erhalten? Hier starten.</p>
         <p class="nav-links">
-          <a class="btn" href="/help/join.html">How to join</a>
-          <a class="btn btn--ghost" href="/help/sign-in.html">Email code → PIN</a>
-          <a class="btn btn--ghost" href="/help/install-android.html">Install Android</a>
-          <a class="btn btn--ghost" href="/help/install-ios.html">Install iPhone</a>
+          <a class="btn" href="/help/join.html" data-i18n="home.help.join">So trittst du bei</a>
+          <a class="btn btn--ghost" href="/help/sign-in.html" data-i18n="home.help.signin">E-Mail-Code → PIN</a>
+          <a class="btn btn--ghost" href="/help/install-android.html" data-i18n="home.help.android">Android installieren</a>
+          <a class="btn btn--ghost" href="/help/install-ios.html" data-i18n="home.help.ios">iPhone installieren</a>
         </p>
       </div>
 
     </main>
     <footer class="site-footer">
-      <p>kiwicustom GmbH · Help for <a href="https://beta.alles-hockey.ch">beta.alles-hockey.ch</a></p>
+      <p><span data-i18n="footer.line">kiwicustom GmbH · Hilfe für</span> <a href="https://beta.alles-hockey.ch">beta.alles-hockey.ch</a></p>
       <p class="nav-links">
-        <a href="/">Home</a>
-        <a href="/help/join.html">Join beta</a>
-        <a href="/help/sign-in.html">Sign in &amp; PIN</a>
-        <a href="/help/install-android.html">Android app</a>
-        <a href="/help/install-ios.html">iPhone (TestFlight)</a>
-        <a href="/docs/release-notes.html">Release notes</a>
+        <a href="/" data-i18n="nav.home">Start</a>
+        <a href="/help/join.html" data-i18n="nav.join">Beta beitreten</a>
+        <a href="/help/sign-in.html" data-i18n="nav.signin">Anmelden &amp; PIN</a>
+        <a href="/help/install-android.html" data-i18n="nav.android">Android-App</a>
+        <a href="/help/install-ios.html" data-i18n="nav.ios">iPhone (TestFlight)</a>
+        <a href="/docs/release-notes.html" data-i18n="nav.notes">Release notes</a>
       </p>
     </footer>
   </div>
+  <script src="/js/i18n.js"></script>
+  <script src="/js/i18n-boot.js"></script>
 </body>
 </html>
