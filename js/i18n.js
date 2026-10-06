@@ -15,7 +15,7 @@ window.AH_HELP_I18N = {
   strings: {
     de: {
       "lang.label": "Sprache",
-      "header.sub": "Hilfe · geschlossene Beta",
+      "header.sub": "Hilfe · Open Beta",
       "nav.home": "Start",
       "nav.join": "Beta beitreten",
       "nav.signin": "Anmelden & PIN",
@@ -26,20 +26,20 @@ window.AH_HELP_I18N = {
 
       "home.meta.title": "Hilfe — Alles Hockey",
       "home.meta.description":
-        "Was Alles Hockey ist und wie du der geschlossenen Beta beitrittst (Einladung, PIN, Android, iPhone).",
+        "Was ALLES-HOCKEY ist: Spielerprofil, Clubhaus, Clubs finden, Spieler finden. Open Beta, nur auf Einladung.",
       "home.kicker": "Was ist das?",
       "home.title": "Alles Hockey",
       "home.lead":
-        "Ein Schweizer Eishockey-Board für heute Abend, nicht irgendwann: last-minute Spieler, Goalies und Eiszeit finden oder inserieren — plus gebrauchtes Material kaufen oder verkaufen.",
+        "ALLES-HOCKEY ist die Open Beta für Amateurhockey. Ein Spielerprofil und ein Clubhaus sind gratis. Du kannst einen Club finden und Spieler finden. Der Beitritt ist nur auf Einladung. Eine Mitgliedschaft kann man noch nicht kaufen.",
       "home.what.title": "Was du kannst",
       "home.what.lm":
-        "<strong>Last Minute</strong> — kurzlebige «HS Cards»: wer gebraucht wird, wann, wo, Niveau. Kontakt nur, wenn jemand durchklickt.",
+        "<strong>Spielerprofil und Clubhaus</strong> — gratis erstellen und teilen. Noah Berger und HC Muster sind Beispiele.",
       "home.what.sc":
-        "<strong>2ndChance</strong> — gebrauchte Schläger, Schoner, Schlittschuhe und mehr; Inserate laufen schnell ab, damit das Board frisch bleibt.",
-      "home.what.map": "<strong>Karte</strong> — sieh, was in der Nähe ist.",
+        "<strong>Einen Club finden</strong> — suchen, filtern, vergleichen und merken.",
+      "home.what.map": "<strong>Spieler finden</strong> — suchen, filtern, vergleichen und merken.",
       "home.note":
-        'Geschlossene Beta, nur auf Einladung. Gleiche Produktfamilie wie <a href="https://hockeyschlampe.ch/">hockeyschlampe.ch</a> (Browser). Storefront: <a href="https://alles-hockey.ch/">alles-hockey.ch</a>.',
-      "home.ctaBeta": "Beta öffnen",
+        'Open Beta, nur auf Einladung. Gleicher Eingang wie <a href="https://hockeyschlampe.ch/">hockeyschlampe.ch</a>. Storefront: <a href="https://alles-hockey.ch/">alles-hockey.ch</a>.',
+      "home.ctaBeta": "Open Beta öffnen",
       "home.help.title": "Beta-Hilfe",
       "home.help.lead": "Einladung erhalten? Hier starten.",
       "home.help.join": "So trittst du bei",
@@ -52,7 +52,7 @@ window.AH_HELP_I18N = {
       "join.kicker": "Nur auf Einladung",
       "join.title": "So trittst du bei",
       "join.lead":
-        "Alles Hockey ist einladungsbasiert, während wir Last Minute + 2ndChance mit echten Spielern testen. Ein Operator trägt deine E-Mail ein — es gibt keine öffentliche Registrierung.",
+        "ALLES-HOCKEY ist die Open Beta. Der Beitritt ist nur auf Einladung. Ein Operator trägt deine E-Mail ein — es gibt keine öffentliche Registrierung.",
       "join.s1": "Warte auf die Alles-Hockey-Einladungsmail (Code + Link).",
       "join.s2":
         'Optional: zuerst die Handy-App installieren — <a href="/help/install-android.html">Android-APK</a> oder <a href="/help/install-ios.html">iPhone via TestFlight</a>.',
@@ -131,7 +131,7 @@ window.AH_HELP_I18N = {
     },
     en: {
       "lang.label": "Language",
-      "header.sub": "Help · closed beta",
+      "header.sub": "Help · Open Beta",
       "nav.home": "Home",
       "nav.join": "Join beta",
       "nav.signin": "Sign in & PIN",
@@ -142,20 +142,20 @@ window.AH_HELP_I18N = {
 
       "home.meta.title": "Help — Alles Hockey",
       "home.meta.description":
-        "What Alles Hockey is, and how to join the closed beta (invite, PIN, Android, iPhone).",
+        "What ALLES-HOCKEY is: a Player Profile, a Clubhouse, find a club, find players. Open Beta, invite only.",
       "home.kicker": "What is this?",
       "home.title": "Alles Hockey",
       "home.lead":
-        "A Swiss ice-hockey board for tonight, not someday: find or post last-minute players, goalies, and ice time — plus sell or buy used gear.",
+        "ALLES-HOCKEY is the Open Beta for amateur hockey. A Player Profile and a Clubhouse are free. You can find a club and find players. Joining is invite only. A membership cannot be bought yet.",
       "home.what.title": "What you can do",
       "home.what.lm":
-        "<strong>Last Minute</strong> — short-lived “HS Cards”: who is needed, when, where, level. Contact shows only when someone taps through.",
+        "<strong>Player Profile and Clubhouse</strong> — free to create and share. Noah Berger and HC Muster are examples.",
       "home.what.sc":
-        "<strong>2ndChance</strong> — used sticks, pads, skates and more; listings expire fast so the board stays fresh.",
-      "home.what.map": "<strong>Map</strong> — see what’s nearby.",
+        "<strong>Find a club</strong> — search, filter, compare, and save.",
+      "home.what.map": "<strong>Find players</strong> — search, filter, compare, and save.",
       "home.note":
-        'Closed beta, invite only. Same product family as <a href="https://hockeyschlampe.ch/">hockeyschlampe.ch</a> (browser). Storefront: <a href="https://alles-hockey.ch/">alles-hockey.ch</a>.',
-      "home.ctaBeta": "Open the beta",
+        'Open Beta, invite only. Same front door as <a href="https://hockeyschlampe.ch/">hockeyschlampe.ch</a>. Storefront: <a href="https://alles-hockey.ch/">alles-hockey.ch</a>.',
+      "home.ctaBeta": "Open the Open Beta",
       "home.help.title": "Beta help",
       "home.help.lead": "Got an invite? Start here.",
       "home.help.join": "How to join",
@@ -168,7 +168,7 @@ window.AH_HELP_I18N = {
       "join.kicker": "Invitation only",
       "join.title": "How to join",
       "join.lead":
-        "Alles Hockey is invite-only while we test Last Minute + 2ndChance with real players. An operator adds your email — there is no public signup.",
+        "ALLES-HOCKEY is the Open Beta. Joining is invite only. An operator adds your email — there is no public signup.",
       "join.s1": "Wait for the Alles Hockey invite email (code + link).",
       "join.s2":
         'Optional: install the phone app first — <a href="/help/install-android.html">Android APK</a> or <a href="/help/install-ios.html">iPhone via TestFlight</a>.',
