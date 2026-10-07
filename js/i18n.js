@@ -85,7 +85,7 @@ window.AH_HELP_I18N = {
       "android.kicker": "Android",
       "android.title": "Alles-Hockey-App installieren",
       "android.lead":
-        "Die APK ist eine Capacitor-Shell um beta.alles-hockey.ch — gleiches Konto wie auf der Website.",
+        "Die APK ist eine Capacitor-Shell um app.alles-hockey.ch — gleiches Konto wie auf der Website.",
       "android.cta": "Alles-Hockey-APK laden",
       "android.s1": "APK von GitHub Releases herunterladen.",
       "android.s2": "Installation von dieser Quelle erlauben, wenn Android fragt.",
@@ -102,7 +102,7 @@ window.AH_HELP_I18N = {
       "ios.kicker": "iPhone",
       "ios.title": "Via TestFlight installieren",
       "ios.lead":
-        "Noch kein App-Store-Download. Die Beta kommt über Apple TestFlight — gleiche Capacitor-Shell wie Android, lädt beta.alles-hockey.ch.",
+        "Noch kein App-Store-Download. Die Beta kommt über Apple TestFlight — gleiche Capacitor-Shell wie Android, lädt app.alles-hockey.ch.",
       "ios.s1":
         "Schick uns die <strong>Apple-ID-E-Mail</strong>, die du auf dem iPhone nutzt (kann von der Alles-Hockey-Einladung abweichen). Wir tragen dich als TestFlight-Tester ein.",
       "ios.s2":
@@ -122,7 +122,7 @@ window.AH_HELP_I18N = {
       "notes.meta.description": "Alles Hockey Beta-Hilfe: Einladung, PIN und App-Installation.",
       "notes.kicker": "Release notes",
       "notes.title": "Was live ist",
-      "notes.web": "Web: <strong>v0.0.2-mcp-alpha-19</strong> auf beta.alles-hockey.ch",
+      "notes.web": "Web: <strong>v0.0.2-mcp-alpha-19</strong> auf app.alles-hockey.ch",
       "notes.android": "Android: <strong>0.0.2-mcp-alpha-18</strong> APK (Alles-Hockey-Icon)",
       "notes.auth": "Auth: Einladungs-E-Mail-Code → PIN erstellen → später E-Mail + PIN",
       "notes.note":
@@ -200,7 +200,7 @@ window.AH_HELP_I18N = {
       "android.kicker": "Android",
       "android.title": "Install the Alles Hockey app",
       "android.lead":
-        "The APK is a Capacitor shell around beta.alles-hockey.ch — same account as the website.",
+        "The APK is a Capacitor shell around app.alles-hockey.ch — same account as the website.",
       "android.cta": "Download Alles Hockey APK",
       "android.s1": "Download the APK from GitHub Releases.",
       "android.s2": "Allow install from that source when Android asks.",
@@ -215,7 +215,7 @@ window.AH_HELP_I18N = {
       "ios.kicker": "iPhone",
       "ios.title": "Install via TestFlight",
       "ios.lead":
-        "There is no App Store download yet. The beta ships through Apple TestFlight — same Capacitor shell as Android, loading beta.alles-hockey.ch.",
+        "There is no App Store download yet. The beta ships through Apple TestFlight — same Capacitor shell as Android, loading app.alles-hockey.ch.",
       "ios.s1":
         "Send us the <strong>Apple ID email</strong> you use on the iPhone (can differ from your Alles Hockey invite email). We add you as a TestFlight tester.",
       "ios.s2":
@@ -235,7 +235,7 @@ window.AH_HELP_I18N = {
       "notes.meta.description": "Alles Hockey beta help: invite, PIN, and app install.",
       "notes.kicker": "Release notes",
       "notes.title": "What is live",
-      "notes.web": "Web: <strong>v0.0.2-mcp-alpha-19</strong> on beta.alles-hockey.ch",
+      "notes.web": "Web: <strong>v0.0.2-mcp-alpha-19</strong> on app.alles-hockey.ch",
       "notes.android": "Android: <strong>0.0.2-mcp-alpha-18</strong> APK (Alles Hockey icon)",
       "notes.auth": "Auth: invite email code → Create PIN → later email + PIN",
       "notes.note": "Tester paste notes also live in the monorepo <code>RELEASE-NOTES.md</code>.",
@@ -313,7 +313,7 @@ window.AH_HELP_I18N = {
       "android.kicker": "Android",
       "android.title": "Asenna Alles Hockey -sovellus",
       "android.lead":
-        "APK on Capacitor-kuori beta.alles-hockey.ch:n ympärillä — sama tili kuin sivustolla.",
+        "APK on Capacitor-kuori app.alles-hockey.ch:n ympärillä — sama tili kuin sivustolla.",
       "android.cta": "Lataa Alles Hockey -APK",
       "android.s1": "Lataa APK GitHub Releasesistä.",
       "android.s2": "Salli asennus kyseisestä lähteestä, kun Android kysyy.",
@@ -329,7 +329,7 @@ window.AH_HELP_I18N = {
       "ios.kicker": "iPhone",
       "ios.title": "Asenna TestFlightilla",
       "ios.lead":
-        "Ei vielä App Store -latausta. Beta tulee Apple TestFlightilla — sama Capacitor-kuori kuin Androidilla, lataa beta.alles-hockey.ch.",
+        "Ei vielä App Store -latausta. Beta tulee Apple TestFlightilla — sama Capacitor-kuori kuin Androidilla, lataa app.alles-hockey.ch.",
       "ios.s1":
         "Lähetä meille <strong>Apple ID -sähköposti</strong>, jota käytät iPhonessa (voi erota Alles Hockey -kutsusta). Lisäämme sinut TestFlight-testeriksi.",
       "ios.s2":
@@ -349,7 +349,7 @@ window.AH_HELP_I18N = {
       "notes.meta.description": "Alles Hockey beta-ohje: kutsu, PIN ja sovelluksen asennus.",
       "notes.kicker": "Julkaisutiedot",
       "notes.title": "Mikä on live",
-      "notes.web": "Web: <strong>v0.0.2-mcp-alpha-19</strong> osoitteessa beta.alles-hockey.ch",
+      "notes.web": "Web: <strong>v0.0.2-mcp-alpha-19</strong> osoitteessa app.alles-hockey.ch",
       "notes.android": "Android: <strong>0.0.2-mcp-alpha-18</strong> APK (Alles Hockey -ikoni)",
       "notes.auth": "Auth: kutsusähköpostikoodi → Luo PIN → myöhemmin sähköposti + PIN",
       "notes.note": "Tester-muistiinpanot myös monorepon <code>RELEASE-NOTES.md</code>-tiedostossa.",
@@ -427,7 +427,7 @@ window.AH_HELP_I18N = {
       "android.kicker": "Android",
       "android.title": "Installer l’app Alles Hockey",
       "android.lead":
-        "L’APK est une coquille Capacitor autour de beta.alles-hockey.ch — même compte que le site.",
+        "L’APK est une coquille Capacitor autour de app.alles-hockey.ch — même compte que le site.",
       "android.cta": "Télécharger l’APK Alles Hockey",
       "android.s1": "Télécharge l’APK depuis GitHub Releases.",
       "android.s2": "Autorise l’installation depuis cette source quand Android le demande.",
@@ -444,7 +444,7 @@ window.AH_HELP_I18N = {
       "ios.kicker": "iPhone",
       "ios.title": "Installer via TestFlight",
       "ios.lead":
-        "Pas encore de téléchargement App Store. La bêta passe par Apple TestFlight — même coquille Capacitor qu’Android, charge beta.alles-hockey.ch.",
+        "Pas encore de téléchargement App Store. La bêta passe par Apple TestFlight — même coquille Capacitor qu’Android, charge app.alles-hockey.ch.",
       "ios.s1":
         "Envoie-nous l’<strong>e-mail Apple ID</strong> utilisé sur l’iPhone (peut différer de l’invitation Alles Hockey). On t’ajoute comme testeur TestFlight.",
       "ios.s2":
@@ -464,7 +464,7 @@ window.AH_HELP_I18N = {
       "notes.meta.description": "Aide bêta Alles Hockey : invitation, PIN et installation d’app.",
       "notes.kicker": "Notes de version",
       "notes.title": "Ce qui est en ligne",
-      "notes.web": "Web : <strong>v0.0.2-mcp-alpha-19</strong> sur beta.alles-hockey.ch",
+      "notes.web": "Web : <strong>v0.0.2-mcp-alpha-19</strong> sur app.alles-hockey.ch",
       "notes.android": "Android : <strong>0.0.2-mcp-alpha-18</strong> APK (icône Alles Hockey)",
       "notes.auth": "Auth : code e-mail d’invitation → Créer PIN → plus tard e-mail + PIN",
       "notes.note":
@@ -543,7 +543,7 @@ window.AH_HELP_I18N = {
       "android.kicker": "Android",
       "android.title": "Installa l’app Alles Hockey",
       "android.lead":
-        "L’APK è uno shell Capacitor intorno a beta.alles-hockey.ch — stesso account del sito.",
+        "L’APK è uno shell Capacitor intorno a app.alles-hockey.ch — stesso account del sito.",
       "android.cta": "Scarica l’APK Alles Hockey",
       "android.s1": "Scarica l’APK da GitHub Releases.",
       "android.s2": "Consenti l’installazione da quella fonte quando Android lo chiede.",
@@ -559,7 +559,7 @@ window.AH_HELP_I18N = {
       "ios.kicker": "iPhone",
       "ios.title": "Installa via TestFlight",
       "ios.lead":
-        "Non c’è ancora download dall’App Store. La beta passa da Apple TestFlight — stesso shell Capacitor di Android, carica beta.alles-hockey.ch.",
+        "Non c’è ancora download dall’App Store. La beta passa da Apple TestFlight — stesso shell Capacitor di Android, carica app.alles-hockey.ch.",
       "ios.s1":
         "Inviaci l’<strong>email Apple ID</strong> che usi sull’iPhone (può differire dall’invito Alles Hockey). Ti aggiungiamo come tester TestFlight.",
       "ios.s2":
@@ -579,7 +579,7 @@ window.AH_HELP_I18N = {
       "notes.meta.description": "Aiuto beta Alles Hockey: invito, PIN e installazione app.",
       "notes.kicker": "Note di rilascio",
       "notes.title": "Cosa è live",
-      "notes.web": "Web: <strong>v0.0.2-mcp-alpha-19</strong> su beta.alles-hockey.ch",
+      "notes.web": "Web: <strong>v0.0.2-mcp-alpha-19</strong> su app.alles-hockey.ch",
       "notes.android": "Android: <strong>0.0.2-mcp-alpha-18</strong> APK (icona Alles Hockey)",
       "notes.auth": "Auth: codice email di invito → Crea PIN → poi email + PIN",
       "notes.note":
@@ -658,7 +658,7 @@ window.AH_HELP_I18N = {
       "android.kicker": "Android",
       "android.title": "Alles-Hockey-App installiere",
       "android.lead":
-        "D APK isch e Capacitor-Shell um beta.alles-hockey.ch — gliichs Konto wie uf de Website.",
+        "D APK isch e Capacitor-Shell um app.alles-hockey.ch — gliichs Konto wie uf de Website.",
       "android.cta": "Alles-Hockey-APK lade",
       "android.s1": "APK vo GitHub Releases abelade.",
       "android.s2": "Installation vo dere Quälle erlaube, wänn Android fragt.",
@@ -675,7 +675,7 @@ window.AH_HELP_I18N = {
       "ios.kicker": "iPhone",
       "ios.title": "Via TestFlight installiere",
       "ios.lead":
-        "No kei App-Store-Download. D Beta chunnt über Apple TestFlight — gliichi Capacitor-Shell wie Android, ladet beta.alles-hockey.ch.",
+        "No kei App-Store-Download. D Beta chunnt über Apple TestFlight — gliichi Capacitor-Shell wie Android, ladet app.alles-hockey.ch.",
       "ios.s1":
         "Schick üs d <strong>Apple-ID-E-Mail</strong>, wo du uf em iPhone nutzsch (cha vo de Alles-Hockey-Iiladig abwiiche). Mir treid dich als TestFlight-Tester ii.",
       "ios.s2":
@@ -695,7 +695,7 @@ window.AH_HELP_I18N = {
       "notes.meta.description": "Alles Hockey Beta-Hilf: Iiladig, PIN und App-Installation.",
       "notes.kicker": "Release notes",
       "notes.title": "Was live isch",
-      "notes.web": "Web: <strong>v0.0.2-mcp-alpha-19</strong> uf beta.alles-hockey.ch",
+      "notes.web": "Web: <strong>v0.0.2-mcp-alpha-19</strong> uf app.alles-hockey.ch",
       "notes.android": "Android: <strong>0.0.2-mcp-alpha-18</strong> APK (Alles-Hockey-Icon)",
       "notes.auth": "Auth: Iiladig-E-Mail-Code → PIN erstelle → spöter E-Mail + PIN",
       "notes.note":
